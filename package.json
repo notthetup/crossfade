@@ -1,0 +1,25 @@
+{
+  "name": "crossfade",
+  "version": "1.0.0",
+  "description": "Simple cross fader between two AudioNodes for WebAudio.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/notthetup/crossfade.git"
+  },
+  "keywords": [
+    "audio",
+    "sound",
+    "crossfade",
+    "fade"
+  ],
+  "author": "Chinmay Pendharkar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/notthetup/crossfade/issues"
+  },
+  "homepage": "https://github.com/notthetup/crossfade"
+}

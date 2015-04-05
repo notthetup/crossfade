@@ -1,9 +1,9 @@
 # crossfade
 Simple cross fader between two AudioNodes for WebAudio.
 
-# Usage
+[![npm version](https://badge.fury.io/js/crossfade.svg)](http://badge.fury.io/js/crossfade)
 
-- Example usage
+# Usage
 
 ```
 npm install crossfader

@@ -20,4 +20,8 @@ window.addEventListener('load', function(){
 		c.fade.value = parseFloat(this.value);
 	})
 
+	window.setTimeout(function(){
+		c.disconnect(0);
+	},10000)
+
 })

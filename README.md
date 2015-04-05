@@ -6,7 +6,7 @@ Simple cross fader between two AudioNodes for WebAudio.
 - Example usage
 
 ```
-	npm install crossfader
+npm install crossfader
 ```
 
 ```
@@ -16,7 +16,7 @@ c.connect(context.destination);
 
 document.getElementById('slider').addEventListener('input', function(){
 	c.fade.value = parseFloat(this.value);
-})
+});
 ```
 
 # API

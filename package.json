@@ -2,6 +2,7 @@
   "name": "crossfade",
   "version": "1.0.0",
   "description": "Simple cross fader between two AudioNodes for WebAudio.",
+  "files":["index.js", "README.md", "package.json"],
   "main": "index.js",
   "scripts": {
     "test": "npm test"

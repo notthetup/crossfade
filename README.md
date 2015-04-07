@@ -25,9 +25,9 @@ document.getElementById('slider').addEventListener('input', function(){
 
 eg : `var c = crossfader(context, node1, node2);`
 
-- `context`: _AudioContext_ - The [AudioContext](http://webaudio.github.io/web-audio-api/#the-audiocontext-interface) within which the [AudioNodes](http://webaudio.github.io/web-audio-api/#idl-def-AudioNode) have been created.
-- `node1` : _AudioNode_ - Any AudioNode within the AudioContext. Will be assigned to the negative value of the `fade` property.
-- `node2` : _AudioNode_ - Any AudioNode within the AudioContext. Will be assigned to the negative value of the `fade` property.
+- `context`: __AudioContext__ - The [AudioContext](http://webaudio.github.io/web-audio-api/#the-audiocontext-interface) within which the [AudioNodes](http://webaudio.github.io/web-audio-api/#idl-def-AudioNode) have been created.
+- `node1` : __AudioNode__ - Any AudioNode within the AudioContext. Will be assigned to the negative value of the `fade` property.
+- `node2` : __AudioNode__ - Any AudioNode within the AudioContext. Will be assigned to the negative value of the `fade` property.
 
 ## Methods
 
@@ -38,7 +38,7 @@ eg : `var c = crossfader(context, node1, node2);`
 	c.connect(context.destination);
 	```
 	- arguments :
-		- `destination` : _AudioNode_ - The AudioNode to connect the output of the crossfader to.
+		- `destination` : __AudioNode__ - The AudioNode to connect the output of the crossfader to.
 
 - `disconnect` : Disconnect the crossfade Node from other AudioNodes.
 	eg :
@@ -49,7 +49,7 @@ eg : `var c = crossfader(context, node1, node2);`
 
 ## Properties
 
-- `fade`: _AudioParam_ - A value in the range [-1,1] that defines how much to cross fade between `node1` and `node2`.
+- `fade`: __AudioParam__ - A value in the range [-1,1] that defines how much to cross fade between `node1` and `node2`.
 
 	eg:
 	```
